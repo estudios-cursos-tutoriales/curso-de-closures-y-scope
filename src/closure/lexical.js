@@ -20,12 +20,3 @@ function myFunction() {
 
 myFunction();
 
-function sumWithClosure(firstNum) {
- 
-  return function suma(firstNum) {
-    const secondNum = Number;
-    return (secondNum) => !secondNum ? firstNum : firstNum + secondNum
-  }
-}
-
-sumWithClosure(2)(3);
